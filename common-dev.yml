@@ -8,3 +8,8 @@ eureka:
       defualtZone: http://localhost:1111/eureka/
 server:
   port: 2222
+spring:
+  rabbitmq:
+    host: localhost
+    username: guest
+    password: guest  
