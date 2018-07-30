@@ -1,0 +1,10 @@
+test:
+  name: zhagnsan
+  age: 19
+  add: 成都
+eureka:
+  client:
+    service-url:
+      defualtZone: http://localhost:1111/eureka/
+server:
+  port: 2222
