@@ -1,15 +1,39 @@
-test:
-  name: zhagnsa423445766666
-  age: 19
-  add: 成都
-eureka:
-  client:
-    service-url:
-      defualtZone: http://localhost:1111/eureka/
-server:
-  port: 2222
 spring:
-  rabbitmq:
-    host: localhost
-    username: guest
-    password: guest  
+  amq:
+    secretId: LTAIbuiLOFUvEEKk
+    secretKey: j6Dp35DGQemoMMY8Jw1vuGr5SOdeM4
+    endpoint: http://1915717797437383.mns.cn-beijing.aliyuncs.com
+  redis:
+    host: 192.168.2.251
+    port: 6279
+    password:
+    timeout: 1000
+    maxActive: 200
+    maxWait: 300
+    minIdle: 10
+    maxIdle: 300
+    testOnBorrow: true
+    testOnReturn: true
+  datasource:
+    username: root
+    password: root1234
+    filters: stat
+    maxActive: 50
+    initialSize: 10
+    maxWait: 60000
+    minIdle: 10
+    initSql: ["set names utf8mb4;"]
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: SELECT 'x'
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    maxOpenPreparedStatements: 20
+    removeAbandoned: true
+    removeAbandonedTimeout: 1800
+    logAbandoned: true
+    poolPreparedStatements: true
+    maxPoolPreparedStatementPerConnectionSize: 100
+  oss:
+    url: http://file-devel.oss-cn-beijing.aliyuncs.com
