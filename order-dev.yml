@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:mysql://192.168.2.251:3206/db_order?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&failOverReadOnly=false&autoReconnect=true&roundRobinLoadBalance=true
+  express:
+    businessId: test1321402
+    appKey: a1627634-35c9-48c0-82ff-799d47c228bd
+    eOrderReqUrl: http://sandboxapi.kdniao.cc:8080/kdniaosandbox/gateway/exterfaceInvoke.json
+    orderReqUrl: http://sandboxapi.kdniao.cc:8080/kdniaosandbox/gateway/exterfaceInvoke.json
+    followReqUrl: http://sandboxapi.kdniao.cc:8080/kdniaosandbox/gateway/exterfaceInvoke.json
+    trackReqUrl: http://sandboxapi.kdniao.cc:8080/kdniaosandbox/gateway/exterfaceInvoke.json
+    ytoName: K280260424
+    ytoCode: UiOci75k
+    sfCode: 0286773560

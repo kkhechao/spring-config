@@ -1,0 +1,27 @@
+spring:
+  androidVersion:
+    intro: 健康管家初始版本
+    latestVersion: 0.1.2
+    versionCode: 2
+    versionName: 1.0.1
+    mandatoryUpdate: false
+    url: http://yixin.dl.126.net/update/installer/yixin.apk
+  iosVersion:
+    intro: 健康管家初始版本
+    latestVersion: 0.1.2
+    versionCode: 2
+    versionName: 1.0.1
+    mandatoryUpdate: false
+    url: http://yixin.dl.126.net/update/installer/yixin.apk
+  jwt:
+    secret: mySecretzqkh
+    expiration: 31536000
+  system:
+    universalCodeSwitch: true
+    universalCode: "0817"
+    baseUrl: http://192.168.2.251:7777
+    banks: [{"code":"ICBC","name":"工商银行","smallImg":"https://file.ccuol.com/icon/yh_gs@3x.png","img":"http://systems-image.oss-cn-hangzhou.aliyuncs.com/bank/me_wallet_bc_ic_gs.png","innerCode":"XXX"},{"code":"CMBC","name":"民生银行","smallImg":"https://file.ccuol.com/icon/ic_ms@3x.png","img":"http://systems-image.oss-cn-hangzhou.aliyuncs.com/bank/me_wallet_bc_ic_ms.png","innerCode":"XXX"},{"code":"BOC","name":"中国银行","smallImg":"https://file.ccuol.com/icon/yh_zg@3x.png","img":"http://systems-image.oss-cn-hangzhou.aliyuncs.com/bank/me_wallet_bc_ic_zg.png","innerCode":"XXX"},{"code":"CCB","name":"建设银行","smallImg":"https://file.ccuol.com/icon/ic_js@3x.png","img":"http://systems-image.oss-cn-hangzhou.aliyuncs.com/bank/me_wallet_bc_ic_js.png","innerCode":"XXX"},{"code":"BOHAIB","name":"渤海银行","smallImg":"https://file.ccuol.com/image/ic_bhyh%403x.png","img":"http://systems-image.oss-cn-hangzhou.aliyuncs.com/bank/me_wallet_bc_ic_js.png","innerCode":"XXX"},{"code":"ABC","name":"农业银行","smallImg":"https://file.ccuol.com/image/yh-nyyh%403x.png","img":"http://systems-image.oss-cn-hangzhou.aliyuncs.com/bank/me_wallet_bc_ic_js.png","innerCode":"XXX"},{"code":"SPABANK","name":"平安银行","smallImg":"https://file.ccuol.com/image/yh-phyh%403x.png","img":"http://systems-image.oss-cn-hangzhou.aliyuncs.com/bank/me_wallet_bc_ic_js.png","innerCode":"XXX"},{"code":"CMB","name":"招商银行","smallImg":"https://file.ccuol.com/image/yh-zsyh%403x.png","img":"http://systems-image.oss-cn-hangzhou.aliyuncs.com/bank/me_wallet_bc_ic_js.png","innerCode":"XXX"},{"code":"CITIC","name":"中信银行","smallImg":"https://file.ccuol.com/image/yh-zxyh%403x.png","img":"http://systems-image.oss-cn-hangzhou.aliyuncs.com/bank/me_wallet_bc_ic_js.png","innerCode":"XXX"},{"code":"CEB","name":"光大银行","smallImg":"https://file.ccuol.com/image/yh_gdyh%403x.png","img":"http://systems-image.oss-cn-hangzhou.aliyuncs.com/bank/me_wallet_bc_ic_js.png","innerCode":"XXX"},{"code":"CGB","name":"广发银行","smallImg":"https://file.ccuol.com/image/yh_gfyh%403x.png","img":"http://systems-image.oss-cn-hangzhou.aliyuncs.com/bank/me_wallet_bc_ic_js.png","innerCode":"XXX"},{"code":"EGBANK","name":"恒丰银行","smallImg":"https://file.ccuol.com/image/yh_hfyh%403x.png","img":"http://systems-image.oss-cn-hangzhou.aliyuncs.com/bank/me_wallet_bc_ic_js.png","innerCode":"XXX"},{"code":"HXBANK","name":"华夏银行","smallImg":"https://file.ccuol.com/image/yh_hxyh%403x.png","img":"http://systems-image.oss-cn-hangzhou.aliyuncs.com/bank/me_wallet_bc_ic_js.png","innerCode":"XXX"},{"code":"COMM","name":"交通银行","smallImg":"https://file.ccuol.com/image/yh_jtyh%403x.png","img":"http://systems-image.oss-cn-hangzhou.aliyuncs.com/bank/me_wallet_bc_ic_js.png","innerCode":"XXX"},{"code":"SPDB","name":"浦发银行","smallImg":"https://file.ccuol.com/image/yh_pfyh%403x.png","img":"http://systems-image.oss-cn-hangzhou.aliyuncs.com/bank/me_wallet_bc_ic_js.png","innerCode":"XXX"},{"code":"CIB","name":"兴业银行","smallImg":"https://file.ccuol.com/image/yh_xyyh%403x.png","img":"http://systems-image.oss-cn-hangzhou.aliyuncs.com/bank/me_wallet_bc_ic_js.png","innerCode":"XXX"},{"code":"PSBC","name":"邮政储蓄银行","smallImg":"https://file.ccuol.com/image/yh_yzyh%403x.png","img":"http://systems-image.oss-cn-hangzhou.aliyuncs.com/bank/me_wallet_bc_ic_js.png","innerCode":"XXX"},{"code":"CZB","name":"浙商银行","smallImg":"https://file.ccuol.com/image/yh_zsyh%403x.png","img":"http://systems-image.oss-cn-hangzhou.aliyuncs.com/bank/me_wallet_bc_ic_js.png","innerCode":"XXX"},{"code":"CRCBANK","name":"重庆农商银行","smallImg":"https://file.ccuol.com/image/yh_cqns%403x.png","img":"http://systems-image.oss-cn-hangzhou.aliyuncs.com/bank/me_wallet_bc_ic_js.png","innerCode":"XXX"}]
+  datasource:
+    url: jdbc:mysql://192.168.2.251:3306/oss_file?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&failOverReadOnly=false&autoReconnect=true&roundRobinLoadBalance=true
+  ad:
+    live: false

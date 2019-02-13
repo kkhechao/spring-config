@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:mysql://192.168.2.251:3206/db_member?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&failOverReadOnly=false&autoReconnect=true&roundRobinLoadBalance=true
+  account:
+    accountId: 999999999
+  supplier:
+    id: c13cd52bd928a4e9b93830492ad82492a
+    divide: 299

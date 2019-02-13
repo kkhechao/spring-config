@@ -1,0 +1,8 @@
+spring:
+  jwt:
+    secret: mySecretProvider
+    expiration: 604800
+  sitemap:
+    url: http://192.168.2.251/app-h5/v1.0/sitemap.json
+oss:
+  url: http://file-devel.oss-cn-beijing.aliyuncs.com

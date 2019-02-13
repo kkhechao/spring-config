@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:mysql://192.168.2.251:3306/db_order?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&failOverReadOnly=false&autoReconnect=true&roundRobinLoadBalance=true
+  express:
+    businessId: 1321402
+    appKey: 5d6fb6b6-e888-477b-b6fb-4b0c6aa3d43c
+    eOrderReqUrl: http://api.kdniao.cc/api/EOrderService
+    orderReqUrl: http://api.kdniao.cc/api/OOrderService
+    trackReqUrl: http://api.kdniao.cc/Ebusiness/EbusinessOrderHandle.aspx
+    followReqUrl: http://api.kdniao.cc/api/dist
+    ytoName: K280260424
+    ytoCode: UiOci75k
+    sfCode: "0286773560"

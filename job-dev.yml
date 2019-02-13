@@ -1,0 +1,27 @@
+spring:
+  datasource:
+    url: jdbc:mysql://192.168.2.251:3206/db_job?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&failOverReadOnly=false&autoReconnect=true&roundRobinLoadBalance=true
+  
+  quartz:
+    instanceName: ServerScheduler
+    isClustered: true
+    clusterCheckinInterval: 20000
+ 
+  rest:
+    readTimeout: 35000
+    connectTimeout: 5000
+
+job:
+  channel:
+    channelName: QUARTZ
+  retryRule:
+    retryWay: BY_NUM
+    byNum:
+      timeType: INVERVAL_TIME
+      timeUnitType: MINUTE
+      intervalTime: 1,3,5,10,20,30,60
+      retryNum: 7
+    untilSuccess:
+      timeType: 
+      timeUnitType:
+      intervalTime:

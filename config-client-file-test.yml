@@ -1,0 +1,13 @@
+oss:
+  url: http://file-devel.oss-cn-beijing.aliyuncs.com
+  endpoint: http://oss-cn-beijing.aliyuncs.com
+  accessKeyId: LTAICNtHtrVf9St4
+  accessKeySecret: xhEyhL5Mx0iWZACFO6MgRIIPKvS8Qw
+  bucketName: file-devel
+  bashFilePath: image
+  callbackUrl: http://127.0.0.1:8099
+  filedir : data/
+  defaultStorage: ossStorage
+spring:
+  datasource:
+    url: jdbc:mysql://192.168.2.251:3306/oss_file?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&failOverReadOnly=false&autoReconnect=true&roundRobinLoadBalance=true

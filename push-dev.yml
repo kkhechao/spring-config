@@ -1,0 +1,36 @@
+spring:
+  datasource:
+    url: jdbc:mysql://192.168.2.251:3206/db_push?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&failOverReadOnly=false&autoReconnect=true&roundRobinLoadBalance=true
+
+---
+
+push:
+  xinge:
+    android:
+      accessId: 2100270990
+      accessKey: A4236GR3KFSZ
+      secretKey: 782119c4da522976f1bbb98cda020f2f
+      accountPrefix: d_
+    ios:
+      accessId: 2200270741
+      accessKey: IUD1K8T6A83H
+      secretKey: 6d2db7aa018a1c56bd253b373c83d924 
+      accountPrefix: d_
+      environment: 2
+  sence:
+    item: cd44a9808936c4257817178ab3d8a6a07
+    article: ce1e6edce441146cbb2914cb6a054b481
+    logistics: cd44a9808936c4257817178ab3d8a6a07
+    rewardUpgrade: c0379c588c57d4f06b339d9a994e6347e
+    rewardStandard: c0379c588c57d4f06b339d9a994e6347e
+    rewardInvitation: c0379c588c57d4f06b339d9a994e6347e
+    webUrl: c38cb2eec52c549b59ad8e8e675c6cd6a
+    geneReport: c0db1a696953a4206943864b0daa66a7c
+    invitationAnswer: c5aaccc831df24b2f8ea7773e17798756
+    newAnswer: cfb7a8e216e6c47179657cde15626b358
+
+
+management:
+  port: 9876
+  security:
+    enabled: false

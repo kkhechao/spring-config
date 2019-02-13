@@ -1,0 +1,15 @@
+spring:
+  jwt:
+    secret: mySecretzqkh
+    expiration: 604800
+  weChat:
+    appId: wx9446a125521430d3
+    secret: a934a0b08df702572b71599b5698ee9b
+  weChatPublicNumber:
+    orderDeliveryTipId: -7nLNpLLQZenVelL-R07PK8-oclI8HBpO2MYt_zLv3w
+    companyAuthTipId: JmLXzeD_1GALdxLuNTeuNrTrdS73tafXJzif3nIRjmk
+    employeeTipId: 6KA9TD4ZgvnD28JmH1FTnqOzA9OwC_61p5ixRuk56tg
+  system:
+    baseUrl: http://marketapi.ccuol.cn
+  datasource:
+    url: jdbc:mysql://192.168.2.251:3206/oss_file?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&failOverReadOnly=false&autoReconnect=true&roundRobinLoadBalance=true

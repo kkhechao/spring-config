@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    url: jdbc:mysql://192.168.2.251:3206/db_im_rongclound?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&failOverReadOnly=false&autoReconnect=true&roundRobinLoadBalance=true
+  rongCloud:
+    appKey: 4z3hlwrv4oyet
+    appSecret: WJbAKUGsHmK
+    apiAddress: 

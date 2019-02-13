@@ -1,0 +1,16 @@
+accessKeyId: LTAI0fpBzxBykopl
+accessKeySecret: yaPHllOFPMXg0ZDNLo4QKzBH9AScbc
+calledShowNumber: "02863138666"
+loginTtsCode: TTS_130845812
+withdrawTtsCode: TTS_130840915
+verifyCodeSignName: 健康管家
+marketButlerSignName: 中清营销管家
+verifyCodeSmsTemplate: SMS_129740188
+withdrawSmsTemplate: SMS_129756459
+servicePhone: 028-86522581
+agentAuthSmsTemplate: SMS_133180207
+checkOldPhone: SMS_138062270
+bindNewPhone: SMS_138077127
+spring:
+  datasource:
+    url: jdbc:mysql://192.168.2.251:3206/microservice_sms?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&failOverReadOnly=false&autoReconnect=true&roundRobinLoadBalance=true
