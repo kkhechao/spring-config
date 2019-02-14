@@ -4,7 +4,7 @@ spring:
     secretKey: j6Dp35DGQemoMMY8Jw1vuGr5SOdeM4
     endpoint: http://1915717797437383.mns.cn-beijing.aliyuncs.com
   redis:
-    host: 192.168.2.251
+    host: 192.168.40.128
     port: 6279
     password:
     timeout: 1000
