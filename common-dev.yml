@@ -5,7 +5,8 @@ spring:
     endpoint: http://1915717797437383.mns.cn-beijing.aliyuncs.com
   redis:
     host: 192.168.40.128
-    port: 6279
+    port: 6379
+    password: 
     timeout: 1000
     maxActive: 200
     maxWait: 300
